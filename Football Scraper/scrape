@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in {1986..2020}
+do
+	scrapy crawl match -a year=$i -O data/championship$i.json
+	sleep 5
+done

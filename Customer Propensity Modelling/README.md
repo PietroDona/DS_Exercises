@@ -24,3 +24,7 @@ Here are two datasets that you can use to build a propensity model. Take note of
 
 * [Customer propensity to purchase dataset](https://www.kaggle.com/benpowis/customer-propensity-to-purchase-data) - A data set logging shoppers interactions on an online store
 * [Marketing Campaign](https://www.kaggle.com/rodsaldanha/arketing-campaign?select=marketing_campaign.csv) - Boost the profit of a marketing campaign
+
+
+
+Download dataset from [here](https://www.kaggle.com/benpowis/customer-propensity-to-purchase-data) and place it in the `data/raw` dir

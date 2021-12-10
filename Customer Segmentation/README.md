@@ -1,4 +1,4 @@
-# Customer Segmentation
+# Customer Segmentation - :red_car:
 ## What?
 
 Customer segmentation is the practice of dividing a customer base into several segments.
@@ -19,3 +19,4 @@ How to:
 Datasets
 * [Mall Customer Segmentation Data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python)
 * [Customer Segmentation Classification](https://www.kaggle.com/kaushiksuresh147/customer-segmentation)
+https://www.kaggle.com/federicoseijo/automobile-customer-segmentation

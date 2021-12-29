@@ -5,4 +5,7 @@ Six different Data Science projects:
 * Deep Dive Analyses
 * Football Scraper - Scrapy scraper for historic data of the Italian football Serie A league from the official website (1986-2020)
 * Metric Forecasting
-* Recommendation Systems 
+* Recommendation Systems
+
+
+https://www.kaggle.com/simiotic/ethereum-nfts

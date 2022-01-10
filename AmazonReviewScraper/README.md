@@ -1,0 +1,1 @@
+https://www.blog.datahut.co/post/scraping-amazon-reviews-python-scrapy

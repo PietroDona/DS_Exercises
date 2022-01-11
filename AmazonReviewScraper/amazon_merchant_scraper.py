@@ -53,7 +53,8 @@ class MerchantScraper():
         r = requests.get(self.get_url(page), headers=HEADERS)
         soup = bsoup(r.text, 'html.parser')
 
-        div_items = soup.find_all("div", class_="s-result-item")
+        div_items = soup.find_all(
+            "div", {"data-component-type": "s-search-result"})
         result = [self.parse_item(item) for item in div_items]
         return result or None
 
@@ -61,8 +62,6 @@ class MerchantScraper():
         '''Parse the review Tag in the dataclass cleaning the various properties'''
         asin = item.attrs.get("data-asin")
         product_name = item.find(
-            "div", class_="s-title-instructions-style").get_text().strip()
-        producer_me = item.find(
             "div", class_="s-title-instructions-style").get_text().strip()
         average_review_raw = item.find(
             "i", class_="a-icon").get_text().strip().split(" ")[0]
@@ -77,5 +76,5 @@ class MerchantScraper():
 
 
 if __name__ == "__main__":
-    ams = MerchantScraper(me="A294P4X9EWVXLJ", max_scrape=1)
+    ams = MerchantScraper(me="A294P4X9EWVXLJ", max_scrape=3)
     print(ams.get_items())
